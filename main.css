@@ -1,0 +1,70 @@
+@font-face {
+    font-family: PlayfairDisplay;
+    src: url(fonts/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(fonts/Roboto/Roboto-Regular.ttf);
+}
+
+body {
+    margin: 0px;
+    color: white;
+}
+
+
+h1 {
+    font-family: PlayfairDisplay;
+    font-size: 3.5rem;
+    text-align: center;
+}
+
+
+h2 {
+    max-width: 500px;
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 10px;
+}
+
+@media (max-width: 875px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    h2 {
+        max-width: 250px;
+        font-size: 1rem;
+    }
+}
+
+.main-container {
+    width: 100%;
+    height: 100vh;
+    /* background-image: linear-gradient(30deg, #03a5fc, #fc034e); */
+}
+
+.background-pattern {
+    width: 100%;
+    height: 100%;
+    background-image: url("images/colorised-Floral-Seamless-Pattern-By-Karen-Arnold.png");
+    background-size: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-container {
+    max-width: 75%;
+    border: 5px solid rgb(77, 53, 64);
+    border-radius: 15px;
+    /* box-shadow: 0px 0px 100px, 0px 0px 50px, 0px 0px 10px; */
+    background-color: rgba(99, 71, 84, 0.9);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Roboto;
+}
